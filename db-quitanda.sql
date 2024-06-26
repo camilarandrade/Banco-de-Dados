@@ -11,3 +11,12 @@ datavalidade DATE,
 preco DECIMAL NOT NULL,
 PRIMARY KEY (id)
 );
+
+INSERT INTO tb_produtos(nome,quantidade,datavalidade,preco)
+VALUES ("Tomate",100,"2023-12-15", 8.00),
+("Pêra",110,"2023-12-16", 10.00);
+
+
+SELECT * FROM tb_produtos;
+
+ALTER TABLE tb_produtos MODIFY preco DECIMAL (6,2) NOT NULL;
