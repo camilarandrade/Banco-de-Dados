@@ -20,3 +20,4 @@ VALUES ("Tomate",100,"2023-12-15", 8.00),
 SELECT * FROM tb_produtos;
 
 ALTER TABLE tb_produtos MODIFY preco DECIMAL (6,2) NOT NULL;
+
